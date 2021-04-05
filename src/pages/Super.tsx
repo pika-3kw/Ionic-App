@@ -2,12 +2,12 @@ import { IonPage } from "@ionic/react";
 
 import Header from "../components/Header";
 
-const Home: React.FC = () => {
+const Super = () => {
   return (
     <IonPage>
-      <Header title="Home" />
+      <Header title="Super" />
     </IonPage>
   );
 };
 
-export default Home;
+export default Super;

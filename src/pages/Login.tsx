@@ -2,12 +2,12 @@ import { IonPage } from "@ionic/react";
 
 import Header from "../components/Header";
 
-const Home: React.FC = () => {
+const Login = () => {
   return (
     <IonPage>
-      <Header title="Home" />
+      <Header title="Login" />
     </IonPage>
   );
 };
 
-export default Home;
+export default Login;
